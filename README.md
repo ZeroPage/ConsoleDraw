@@ -3,18 +3,19 @@ ConsoleDraw
 
 Drawing on win32 console environment
 
-##How-To
-####Initalize
+## How-To
+#### Initalize
+
 ``` c
 InitialConsole();                     // Intialize
 ```
 
-####Release
+#### Release
 ``` c
 ReleaseConsole();                     // Release
 ```
 
-####Drawable Target
+#### Drawable Target
 ``` c
 ...
 
@@ -32,7 +33,7 @@ Flip();                               // Screen = Back-buffer
 ...
 ```
 
-####Input
+#### Input
 ``` c
 CheckInput();                         // Update input data
 
@@ -52,7 +53,7 @@ if (IsMouseDown(MOUSE_BUTTON_LEFT))   // Specific input at Mouse
 
 ```
 
-####Play Sound
+#### Play Sound
 ``` c
 PlayMusic("background.mp3", false);
 if (IsPlayMusic())
@@ -79,7 +80,7 @@ StopAllSound();         // Not music
 
 <br />
 
-##Requirements
+## Requirements
 
 - Windows XP / Vista / 7 / 8
 - Not support, MacOS or Linux
@@ -92,7 +93,7 @@ StopAllSound();         // Not music
 
 <br />
 
-##License
+## License
 
 > The MIT License (MIT)
 >
